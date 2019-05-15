@@ -45,7 +45,6 @@ bool ePalindromo(string palavra) {
  * Programa principal
  */
 int main(int argc, char** argv) {
-
     //Entrada        
     string palavra = "";
     cout << "Digite uma palavra para verificar se é palindromo:";
