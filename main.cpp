@@ -1,3 +1,4 @@
+//Declaração de bibliotecas
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -53,11 +54,10 @@ int main(int argc, char** argv) {
     //Processamento
     if (ePalindromo(palavra)) {
         //Saida
-        cout << endl << "A palavra " << palavra << " é palindromo!" << endl;
+        cout << "\nA palavra " << palavra << " é palindromo!" << endl;
     } else {
         //Saida
-        cout << endl << "A palavra " << palavra << " não é palindromo!" << endl;
+        cout << "\nA palavra " << palavra << " não é palindromo!" << endl;
     }
     return 0;
 }
-
